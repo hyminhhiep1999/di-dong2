@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_match"
+    tools:context=".ui.DonDatHang.SlideshowFragment">
+
+    <ListView
+        android:id="@+id/listview_DDH"
+        style="@style/match_match"/>
+
+</LinearLayout>

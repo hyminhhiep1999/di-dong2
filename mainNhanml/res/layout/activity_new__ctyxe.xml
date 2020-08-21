@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_match"
+    android:orientation="vertical"
+    tools:context=".Ctyxe_new">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_img_ctyxe"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bo_goc"
+        android:clipToPadding="false"
+        android:foregroundGravity="center"
+        android:overScrollMode="never"
+        android:padding="10dp">
+    </androidx.viewpager.widget.ViewPager>
+
+
+    <LinearLayout
+        style="@style/match_wrap"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etmaloai_new"
+            style="@style/match_wrap_center"
+            android:drawableLeft="@drawable/ic_code_black_24dp"
+            android:hint="@string/maLoai" />
+
+        <EditText
+            android:id="@+id/ettenloai_new"
+            style="@style/match_wrap_center"
+            android:drawableLeft="@drawable/ic_border_color_black_24dp"
+            android:hint="@string/tenLoai" />
+
+        <EditText
+            android:id="@+id/etxuatxu_new"
+            style="@style/match_wrap_center"
+            android:drawableLeft="@drawable/ic_explore_black_24dp"
+            android:hint="@string/xuatXu" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        style="@style/match_wrap_center">
+
+        <Button
+            android:id="@+id/btnThem_new"
+            style="@style/wrap_wrap"
+            android:drawableLeft="@drawable/ic_add_box_black_24dp"
+            android:text="@string/them" />
+
+        <Button
+            android:id="@+id/btnTroVe_new"
+            style="@style/wrap_wrap"
+            android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+            android:text="@string/trove" />
+    </LinearLayout>
+</LinearLayout>

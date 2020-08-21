@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearCardView"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.MainActivity">
+
+    <TextView
+        style="@style/appname"
+        android:text="@string/appname" />
+    <EditText
+        android:id="@+id/txtMaCN"
+        style="@style/txt"
+        android:hint="@string/ma" />
+
+    <EditText
+        android:id="@+id/txtHoTen"
+        style="@style/txt"
+        android:hint="@string/hoTen" />
+
+    <EditText
+        android:id="@+id/txtPhanXuong"
+        style="@style/txt"
+        android:hint="@string/phanxuong" />
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/chucnang" />
+    <LinearLayout style="@style/chucnang">
+        <Button
+            android:background="@drawable/them"
+            android:id="@+id/btnThem"
+            style="@style/btn"
+            android:text="@string/them" />
+        <Button
+            android:background="@drawable/them"
+            android:id="@+id/btnXoa"
+            style="@style/btn"
+            android:text="@string/xoa" />
+        <Button
+            android:background="@drawable/exit"
+            android:id="@+id/btnThoat"
+            style="@style/btnimg"          />
+        <Button
+            android:background="@drawable/ngonngu"
+            android:id="@+id/btnNgonNgu"
+            style="@style/btnimg"
+           />
+    </LinearLayout>
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/ds" />
+        <ListView
+        android:id="@+id/lvDanhSach"
+        style="@style/lv"></ListView>
+
+</LinearLayout>

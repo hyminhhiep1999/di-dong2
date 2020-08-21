@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quản Lý Chấm Công</string>
+    <string name="appname">Quản Lý Chấm Công</string>
+    <string name="thongtin">Thêm Công Nhân</string>
+    <string name="hoTen">Nhập Họ Và Tên: </string>
+    <string name="ma">Nhập Mã Công Nhân: </string>
+    <string name="phanxuong">Nhập Phân Xưởng: </string>
+    <string name="chucnang">Chức Năng</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="thoat">Thoát</string>
+    <string name="ds">Danh Sách Công Nhân</string>
+    <string name="chitietcn">Chi Tiết Công Nhân</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_match"
+    tools:context=".ui.CtyXe.HomeFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recy_view"
+        style="@style/match_match"
+        android:padding="4dp"
+        android:scrollbars="vertical"></androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

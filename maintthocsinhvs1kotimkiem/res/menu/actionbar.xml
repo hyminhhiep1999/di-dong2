@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/mnLuu"
+    android:title="Luu"
+    android:icon="@drawable/luu"
+    app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/mnChuyen"
+        android:title="Chuyen"
+        android:icon="@drawable/chuyenqua"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/mnexit"
+        android:title="thoat"
+        android:icon="@drawable/thoat"
+        app:showAsAction="ifRoom|withText"/>
+</menu>

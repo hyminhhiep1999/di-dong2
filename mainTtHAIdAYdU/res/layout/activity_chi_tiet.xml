@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearCardView"
+    android:orientation="vertical"
+    tools:context="tdc.edu.vn.myapplication.GiaoDien.ChiTietActivity">
+    <TextView
+        style="@style/tieude"
+        android:text="@string/chitietcn" />
+    <LinearLayout
+        style="@style/chucnang"
+        >
+        <TextView
+            style="@style/btn"
+            android:text="@string/ma">
+        </TextView>
+        <EditText
+            android:id="@+id/txtMaCN"
+            style="@style/txt"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/chucnang">
+        <TextView
+            style="@style/btn"
+            android:text="@string/hoTen">
+        </TextView>
+        <EditText
+            android:id="@+id/txtHoTen"
+            style="@style/txt" />
+    </LinearLayout>
+<LinearLayout
+    style="@style/chucnang">
+    <TextView
+        style="@style/btn"
+        android:text="@string/phanxuong">
+    </TextView>
+    <EditText
+        android:id="@+id/txtPhanXuong"
+        style="@style/txt">
+    </EditText>
+</LinearLayout>
+    <TextView
+        style="@style/tieude"
+        android:text="View" />
+        <androidx.recyclerview.widget.RecyclerView
+            style="@style/linearCardView"
+            android:id="@+id/recyclerView">
+        </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

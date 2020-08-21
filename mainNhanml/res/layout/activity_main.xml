@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_match"
+    android:background="#86F6DA"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/icon_xemay" />
+
+    <LinearLayout
+        style="@style/match_wrap_center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="@style/wrap_wrap"
+            android:drawableLeft="@drawable/submit_login"
+            android:text="@string/submit" />
+
+        <Button
+            android:id="@+id/btnExit"
+            style="@style/wrap_wrap"
+            android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+            android:text="@string/exit" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/match_wrap_center"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btnMusic"
+        style="@style/wrap_wrap"
+            android:drawableLeft="@drawable/ic_music_note_black_24dp"
+            android:text="@string/music"
+
+            />
+
+        <Button
+            android:id="@+id/btnDatHang"
+            style="@style/wrap_wrap"
+            android:drawableLeft="@drawable/ic_shopping_basket_black_24dp"
+            android:text="@string/shop" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/animation_hello"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/xin_chao" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/match_wrap"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="#FBFBFB"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/designer"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+
+        />
+
+</LinearLayout>

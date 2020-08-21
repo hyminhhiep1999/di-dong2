@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time Attendance Management</string>
+    <string name="appname">Time Attendance Management</string>
+    <string name="chucnang">Function</string>
+    <string name="phanxuong">Enter the Workshop</string>
+    <string name="ds">Workers list</string>
+    <string name="hoTen">Enter Full Name</string>
+    <string name="ma">Enter Worker Code</string>
+    <string name="them">Add</string>
+    <string name="thoat">Exit</string>
+    <string name="thongtin">More Workers</string>
+    <string name="chitietcn">" Worker Details"</string>
+</resources>
